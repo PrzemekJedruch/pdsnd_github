@@ -75,7 +75,7 @@ Optional columns:
   - `time_stats()`, `station_stats()`, `trip_duration_stats()`, `user_stats()`: Analyze and display various statistics.
   - `categorize_age_groups()` and `most_common_age_of_users()`: Provides age-related insights.
 
-- **Detailed Reference**: See the [Documentation](link-to-docs).
+- **Detailed Reference**: See the [Documentation](https://github.com/PrzemekJedruch/pdsnd_github/DOCUMENTATION.md).
 
 ---
 
