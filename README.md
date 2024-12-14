@@ -80,7 +80,7 @@ Optional columns:
 ---
 
 ## Contributing
-We welcome contributions! See [CONTRIBUTING.md](https://github.com/PrzemekJedruch/pdsnd_github/CONTRIBUTING.md) for guidelines.
+We welcome contributions! See [Contributing](https://github.com/PrzemekJedruch/pdsnd_github/CONTRIBUTING.md) for guidelines.
 
 
 ---
