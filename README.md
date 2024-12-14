@@ -82,11 +82,13 @@ Optional columns:
 ## Contributing
 We welcome contributions! See [CONTRIBUTING.md](https://github.com/PrzemekJedruch/pdsnd_github/CONTRIBUTING.md) for guidelines.
 
+
 ---
 
 ## License
-**bikeshare_2** is © 2024 Przemysław Jędruch.  
-Distributed under the MIT License. 
+**bikeshare_2** is © 2024 Przemysław Jędruch.
+Distributed under the MIT License.
+
 ---
 
 ## About
