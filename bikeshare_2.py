@@ -209,19 +209,14 @@ def categorize_age_groups(df):
     except KeyError:
         print('\nCategorize Age Groups: No data available')
 
-
 def most_common_age_of_users(df):
-    """Displays the most common age of users."""
     try:
         categorize_age_groups(df)
-        common_age_group = df.groupby(['Age Group'], observed=False)['Birth Year'].value_counts()
-        common_age_group = common_age_group.groupby(['Age Group'], observed=False).sum()
+        common_age_group = df.groupby(['Age Group'], observed=False)['Birth Year'].value_counts().groupby(['Age Group'], observed=False).sum()
         id_max = common_age_group.idxmax()
         print(common_age_group)
-        print('\nMost Common Age Group of users: {} age with {} rent(s)\n'.format(id_max, common_age_group[id_max]))
-    except ValueError:
-        print('\nMost Common Age: No data available')
-    except KeyError:
+        print(f'\nMost Common Age Group of users: {id_max} age with {common_age_group[id_max]} rent(s)\n')
+    except (ValueError, KeyError):
         print('\nMost Common Age: No data available')
 
 
