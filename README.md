@@ -80,18 +80,17 @@ Optional columns:
 ---
 
 ## Contributing
-We welcome contributions! See [CONTRIBUTING.md](link-to-contributing) for guidelines.
+We welcome contributions! See [CONTRIBUTING.md](https://github.com/PrzemekJedruch/pdsnd_github/CONTRIBUTING.md) for guidelines.
 
 ---
 
 ## License
 **bikeshare_2** is © 2024 Przemysław Jędruch.  
-Distributed under the MIT License. See [LICENSE](link-to-license) for details.
-
+Distributed under the MIT License. 
 ---
 
 ## About
 This project is maintained by Przemysław Jędruch.  
-For support or inquiries, create an issue on [GitHub Issues](link-to-issues).
+For support or inquiries, create an issue on [GitHub Issues](https://github.com/PrzemekJedruch/pdsnd_github/issues).
 
-Looking for professional help with data analysis projects? [Contact Us](link-to-contact).
+Looking for professional help with data analysis projects? [Contact Us](https://github.com/PrzemekJedruch).
