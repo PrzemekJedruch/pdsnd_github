@@ -10,49 +10,25 @@ MONTHS = ['january', 'february', 'march', 'april', 'may', 'june']
 
 WEEK_DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
 
-
 def get_filters():
-    """
-    Asks user to specify a city, month, and day to analyze.
-
-    Returns:
-        (str) city - name of the city to analyze
-        (str) month - name of the month to filter by, or "all" to apply no month filter
-        (str) day - name of the day of week to filter by, or "all" to apply no day filter
-    """
-    print('Hello! Let\'s explore some US bikeshare data!')
-    # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
+    print("Hello! Let's explore some US bikeshare data!")
     while True:
-        try:
-            city = input("Enter the city name (chicago, new york city, washington): ").lower().strip()
-            if city in CITY_DATA:
-                break
-            else:
-                raise ValueError
-        except ValueError:
-            print("Invalid city name. Please enter the correct city name.")
+        city = input("Enter the city name (chicago, new york city, washington): ").lower().strip()
+        if city in CITY_DATA:
+            break
+        print("Invalid city name. Please enter the correct city name.")
 
-    # get user input for month (all, january, february, ... , june)
     while True:
-        try:
-            month = input("Enter the month name ('all', 'january', 'february', ...): ").lower().strip()
-            if month in MONTHS or month == 'all':
-                break
-            else:
-                raise ValueError
-        except ValueError:
-            print("Invalid month name. Please enter the correct month name.")
+        month = input("Enter the month name ('all', 'january', 'february', ...): ").lower().strip()
+        if month in MONTHS or month == 'all':
+            break
+        print("Invalid month name. Please enter the correct month name.")
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        try:
-            day = input("Enter the day of week ('all', 'monday', 'tuesday', ...): ").lower().strip()
-            if day in WEEK_DAYS or day == 'all':
-                break
-            else:
-                raise ValueError
-        except ValueError:
-            print("Invalid day of week. Please enter the correct day of week.")
+        day = input("Enter the day of week ('all', 'monday', 'tuesday', ...): ").lower().strip()
+        if day in WEEK_DAYS or day == 'all':
+            break
+        print("Invalid day of week. Please enter the correct day of week.")
 
     print('-' * 40)
     return city, month, day
